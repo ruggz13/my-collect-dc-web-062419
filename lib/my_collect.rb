@@ -7,6 +7,6 @@ def my_collect(collection)
     i += 1
     collection << names
   end
-  collection
+  
   names.split(" ").first
 end
