@@ -5,8 +5,6 @@ def my_collect(collection)
   while i < collection.length
     yield(collection[i])
     i += 1
-    collection << names
   end
-  
-  names.split(" ").first
+  collection
 end
