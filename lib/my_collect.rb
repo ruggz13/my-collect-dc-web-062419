@@ -8,4 +8,5 @@ def my_collect(collection)
     collection << names
   end
   collection
+  names.split(" ").first
 end
